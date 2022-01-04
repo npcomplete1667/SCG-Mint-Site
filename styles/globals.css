@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SpecialFont";
+  src: url(./Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.background-image {
+  background-color: #d4baff;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main_image{
+  width: 70%;
+  border-radius: 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+.connectWalletPrompt {
+  padding-top: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.specialFont {
+  color: #333;
+  font-weight: 500;
+  font-family: SpecialFont;
+  font-size: 28px;
+}
+
+.tipsFont {
+  margin-top: 20px;
+  color: #333;
+  font-weight: 500;
+  font-family: SpecialFont;
+  font-size: 22px;
+}
+
+.soldOut {
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: SpecialFont;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.mintButton {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: SpecialFont;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.startMintButton {
+  width: 120px;
+}
+
+.stepperButton {
+  font-size: 40px;
+  width: 40px;
+}
+
+.mintInput {
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solBalance {
+  color: #333;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.nftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+}
+
+.nftHeading {
+  color: #333;
+  font-weight: 500;
+  font-family: SpecialFont;
+  font-size: 24px;
+  width: 50%;
+  max-width: 400px;
+  padding-bottom: 30px;
+}
+
+.RemainingFont {
+  color: #333;
+  font-weight: 500;
+  font-family: SpecialFont;
+  font-size: 24px;
+}
+
+.nftDisplayWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nftCard {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 30px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255);
+  border-radius: 5px;
+}
+
+.nftCardText {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: SpecialFont;
+}
+
+.mint-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 700px;
+  height: 70vh;
+}
