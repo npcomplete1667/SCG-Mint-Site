@@ -83,10 +83,10 @@ export default function Home() {
       <div className="background-image">
         <Toaster />
         <div className="navBar">
+          {connected && (
           <div className="nftHeading tab mr-auto text-sm">
             <p>Remaining: {nftsData.itemsRemaining}</p>
           </div>
-          {connected && (
             <div className="solBalance">
               <p>Balance: {balance.toFixed(2)} SOL</p>
               <p></p>
